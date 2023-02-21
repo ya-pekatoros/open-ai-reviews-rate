@@ -12,6 +12,7 @@ openai = "^0.26.5"
 pytest = "^7.2.1"
 pandas = "^1.5.3"
 python-dotenv = "^0.21.1"
+flake8 = "^6.0.0"
 
 
 [build-system]

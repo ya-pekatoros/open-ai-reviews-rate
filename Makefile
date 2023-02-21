@@ -3,7 +3,7 @@ install:
 
 lint:
 		{ \
-    	poetry run flake8 openai_reviews_rates;\
+    	poetry run flake8 chat_gpt_reviews_rates;\
 		poetry run flake8 tests;\
     	}
 
