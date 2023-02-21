@@ -1,0 +1,1 @@
+Short script to sort reviews from .csv file by its enthusiasm using Open AI API.

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chat-gpt-reviews-rates"
+version = "0.1.0"
+description = ""
+authors = ["Yaroslav Pekatoros <y.pekatoros@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chat_gpt_reviews_rates"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.26.5"
+pytest = "^7.2.1"
+pandas = "^1.5.3"
+python-dotenv = "^0.21.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
